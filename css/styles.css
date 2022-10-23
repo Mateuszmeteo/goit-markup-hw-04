@@ -1,0 +1,326 @@
+/* body */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+    margin: 0;
+}
+
+
+                                        /* header */
+header {
+    border-bottom: #000000 solid 1px;
+}
+.headerclass {
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.headerclass ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-left: 215px;
+}
+.logoright {
+    margin-right: 227px;
+}
+.logoup {
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    letter-spacing: 0.03rem;
+    display: flex;
+}
+.logoup li {
+    text-decoration: none;
+}
+.logoup1 {
+    color: #2196F3;
+}
+.logoup2 {
+    color: #000000;
+}
+.nolinkup11 {
+    margin-left: 100px;
+    text-decoration: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.875px;
+    /* line-height: 16px; */
+    letter-spacing: 0.02em;
+
+}
+.nolinkup1 {
+    text-decoration: none;
+    color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 0.875px;
+    /* line-height: 16px; */
+    letter-spacing: 0.02em;
+}
+.nolinkup2 {
+    text-decoration: none;
+    color: #757575;
+    font-size: 500;
+    font-size: 14px;
+    line-height: 0.875;
+    /* line-height: 16px; */
+    letter-spacing: 0.02em;
+}
+.nolinkup1:hover {
+    color: #2196F3;
+}
+.nolinkup2:hover {
+    color: #2196F3;
+}
+
+                                    /* FOOTER */
+
+.foot {
+    background-color: #2F303A;
+    height: 252px;
+    padding: 60px;
+}
+.logodown {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 215px;
+}
+
+/* footer a {
+   
+} */
+.foot ul {
+    list-style: none;
+}
+.logoup3 {
+    color: #ffffff;
+}
+.logodown2 {
+    margin-left: 215px;
+    padding-inline-start: 0;
+}
+.logodown2 li {
+    padding: 9px;
+}
+.addres {
+    color: #FFFFFF;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 0.583;
+    /* line-height: 24px; */
+    letter-spacing: 0.03em;
+}
+.nolinke {
+    color: #757575;
+    font-size: 14px;
+    line-height: 0.583;
+    /* line-height: 24px; */
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.nolink {
+    text-decoration: none;
+    color: #757575;
+    font-size: 14px;
+    line-height: 0.583;
+    /* line-height: 24px; */
+    letter-spacing: 0.03em;
+}
+
+                                        /* MAIN */
+                                        /* INDEX */
+.title {
+    background-color: #2F303A;
+    justify-content: center;
+    text-align: center;
+    /* width: 1600px; */
+    height: 600px;
+    padding-top: 200px;
+    
+}
+
+.title h1 {
+    text-transform: uppercase;
+    letter-spacing: 0.25rem;
+    /* line-height: 60px; */
+    font-size: 44px;
+    line-height: 0.73;
+    color: #FFFFFF; 
+    padding:60px 452px 60px 452px;
+    
+    /* flex-direction: row;
+    text-align:justify; */
+    
+}
+.title button {
+    font-size: 16px;
+    font-weight: 700;
+    color:#FFFFFF;
+    background-color: #2196F3;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 4px;  
+    border: none;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+}
+                                /* LOREM */
+.lorem {
+    padding: 30px;
+    margin-left: 215px;
+    margin-right: 215px;
+
+}
+.lorem h2 {
+    display: none;
+}
+.lorem h3 {
+    font-size:14px;
+    line-height: 0.875;
+    /* line-height: 16px; */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.lorem ul {
+    display: flex;
+    text-align: left;
+    gap:30px;
+    list-style: none;
+}
+.lorem p {
+    color: #757575;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+                                /* 2 sekcja */
+.imagin {
+    text-align: center;
+}
+.imagin h2 {
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+}
+.imagin ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+                                /* 3 sekcja */
+.teamlist {
+    background-color: #F5F4FA;
+    padding: 30px;
+}
+.teamlist h2 {
+    font-size: 36px;
+    line-height: 0.857;
+    /* line-height: 42px; */
+    letter-spacing: 0.03em;
+}
+.teamlist ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+}
+.teamlist li {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.teamlist h2 {
+    text-align: center;
+}
+.teamlist h3 {
+    font-size: 16px;
+    line-height: 0.842;
+    /* line-height: 19px; */
+    letter-spacing: 0.03em;
+}
+.teamlist p {
+    font-size: 16px;
+    line-height: 0.842;
+    /* line-height: 19px; */
+    letter-spacing: 0.03em;
+    color:#757575;
+}
+
+                                        /* PORTFOLIO */
+.bsection ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    list-style: none;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.bsection button {
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #F5F4FA;
+    padding: 12px;
+    border-radius: 4px;  
+    border: none;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 0.615;
+    /* line-height: 26px; */
+}
+.bsection button:hover {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+.wrap {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:30px;
+    list-style: none;
+    padding: 40px 215px 50px 215px;
+    /* padding-top: 40px;
+    padding-left: 215px;
+    padding-right: 215px;
+    padding-bottom: 40px; */
+}
+.wrap li {
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+}
+.wrap img {
+    background-color: #eeeeee;
+}
+.wrap h3 {
+    margin-left: 30px;
+    font-size: 18px;
+    /* line-height: 36px; */
+    line-height: 0.5;
+    letter-spacing: 0.06em;
+}
+.wrap p {
+    margin-left: 30px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 0.533;
+    /* line-height: 30px; */
+    letter-spacing: 0.03em;
+}
+
