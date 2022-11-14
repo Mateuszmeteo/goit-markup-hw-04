@@ -1,3 +1,10 @@
+/* KOLORY  */
+:root {
+    --color1: rgba(175, 177, 184, 1);
+    --color-blue: rgba(33, 150, 243, 1);
+}
+
+
 .container {
     margin: 0 auto;
     inline-size: 100%;
@@ -10,6 +17,17 @@
 
 .nolink {
     text-decoration: none;
+    position: relative;
+}
+.nolink-line::after {
+    content:"";
+    position: absolute;
+    background-color: var(--color-blue);
+    left: 0;
+    width: 100%;
+    height: 4px;
+    bottom: -32px;
+
 }
 .headcont {
     /* background-color: aqua; */
@@ -89,6 +107,19 @@
 .logoup3:hover {
     color: #2196F3;
 }
+.nolink-mail {
+    /* gap: 30px; */
+    /* position: relative; */
+}
+/* .nolink-mail::before {
+    content: url();
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    background-image: url(/images/icons.svg#icon-envelope);
+    fill:#000000;
+    background-color: #757575;
+} */
 
 
                         /* FOOTER  */
@@ -415,11 +446,18 @@
     }
 .teamdivsvg li:hover {
     background-color: #2196F3;
+    fill: #ffffff;
 }
-.teamdivsvg svg:hover {
-    
-
+.teamdivsvg li:hover svg {
+    fill: #ffffff;
 }
+.teamdivsvg svg {
+    fill: #AFB1B8;
+}
+/* .teamdivsvg svg:hover {
+    fill: #FFFFFF;
+    fill: blueviolet;
+} */
 
 
 
@@ -455,10 +493,12 @@
 }
 .castomerscontdiv svg {
     border:1px solid #AFB1B8;
+    fill: #AFB1B8;
 }
 .castomerscontdiv svg:hover {
     border: solid 1px #2196F3;
-    fill: #2196F3;
+    fill: var(--color-blue);
+    /* fill: #2196f3; */
 }
 
 
@@ -509,7 +549,7 @@
 .bsection button:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
+                                /* SEKCJA 2  */
 .wrap {
     /* background-color: antiquewhite; */
     display: flex;
@@ -533,8 +573,15 @@
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .portimg {
+    position: relative;
     width: 370px;
     height: 294px;
+    /* overflow: hidden; */
+}
+.portimg:hover .overlay {
+    transform: translatex(0);
+    background-color: #2196F3;
+    /* background-color: blueviolet; */
 }                     
 .wraptext {
     background-color: #ffffff;
@@ -558,4 +605,22 @@
     line-height: 0.533;
     /* line-height: 30px; */
     letter-spacing: 0.03em;
+}
+
+.overlay {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  transform: translatex(-100%);
+  transition: transform 250ms ease;
+}
+.overlay > p {
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+    color: #ffffff;
+
 }
