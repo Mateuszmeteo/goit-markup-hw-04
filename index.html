@@ -47,7 +47,79 @@
                 <div class="div1sec1">
                     <div class="div1box">
                         <h1>efektywne rozwiązania dla waszego biznesu</h1>
-                        <button type="button">Zamów usługę</button>
+                        <button class="sec1-button" type="button" data-modal-open>Zamów usługę</button>
+                        <div class="backdrop is-hidden" data-modal>
+                            <div class="modal">
+                                <button class="modal-button-close" data-modal-close><span><svg width="11px" height="11px"><use href="/images/icons.svg#icon-vector"></use></svg></span></button>
+                                <div class="modal-head">
+                                    <h2>Zostaw swoje dane w formularzu poniżej</h2>
+                                </div>                            
+                                <div class="modal-one-div">
+                                    <ul>
+                                        <li>
+                                            <form class="form-one">
+                                                <fieldset class="fieldset">
+                                                    <label class="label-one" for="name">Imię</label>
+                                                    <svg class="label-one-svg" width="12px" height="12px"><use href="/images/icons.svg#icon-vector-name"></use></svg>
+                                                    <input class="input-one"
+                                                        type="text"
+                                                        placeholder=""
+                                                        id="name"
+                                                    />
+                                                </fieldset>
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <form class="form-one">
+                                                <fieldset class="fieldset">
+                                                    <label class="label-one" for="name">Telefon</label>
+                                                    <svg class="label-one-svg" width="13px" height="13px"><use href="/images/icons.svg#icon-vector-phone"></use></svg>
+                                                    <input class="input-one"
+                                                        type="text"
+                                                        placeholder=""
+                                                        id="name"
+                                                    />
+                                                </fieldset>
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <form class="form-one">
+                                                <fieldset class="fieldset">
+                                                    <label class="label-one" for="name">Email</label>
+                                                    <svg class="label-one-svg" width="15px" height="12px"><use href="/images/icons.svg#icon-vector-mail"></use></svg>
+                                                    <input class="input-one"
+                                                        type="text"
+                                                        placeholder=""
+                                                         id="name"
+                                                    />
+                                                </fieldset>
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <form class="form-one">
+                                                <fieldset class="fieldset-sec">
+                                                    <label class="label-one" for="name">Komentarz</label>
+                                                    <input class="input-sec"
+                                                        type="text"
+                                                        placeholder="Wprowadź tekst"
+                                                         id="name"
+                                                    />
+                                                </fieldset>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="modal-two-div">
+                                    <ul>
+                                        <li><input type="checkbox"/></li>
+                                        <li><p>oświadczam iz akceptuję<span>regulamin</span>i<span>poiltykę prywatności.</span></p></li>
+                                    </ul>
+                                </div>
+                                <div class="modal-three-div">
+                                    <button width="50px" height="200px">Wyślij</button>
+                                </div>                                
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -105,6 +177,9 @@
                             width="370"
                             height="294"
                             />
+                            <div class="lorem-img-foot">
+                                <h3>aplikacje komputerowe</h3>
+                            </div>
                         </li>
                         <li>
                             <img
@@ -113,6 +188,9 @@
                             width="370"
                             height="294"
                             />
+                            <div class="lorem-img-foot">
+                                <h3>aplikacje mobilne</h3>
+                            </div>
                         </li>
                         <li>
                             <img
@@ -121,6 +199,9 @@
                             width="370"
                             height="294"
                             />
+                            <div class="lorem-img-foot">
+                                <h3>rozwiązania graficzne</h3>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -235,10 +316,20 @@
                             <li><svg width="20px" height="20px"><use href="./images/icons.svg#icon-linkedin2"></use></svg></li>
                         </ul>
                     </div>
+                    <div class="foot-div-three">
+                        <h4>zapisz się do newslettera</h4>
+                        <input
+                        type=""
+                        placeholder="E-mail"
+                        id="">
+                        <button class="foot-div-three-button">Zapisz się</button>
+
+                    </div>
                 </div>
             </div>
         </section>
 
      </footer>
+     <script src="./js/modal.js"></script>
 </body>
 </html>

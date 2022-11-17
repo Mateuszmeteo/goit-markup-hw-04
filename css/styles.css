@@ -69,7 +69,16 @@
     
 }
 .head2 {
+    /* background-color: darkslateblue; */
     
+}
+.head2list {
+    /* background-color: cornsilk; */
+    /* display: flex;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center; 
+    margin-right: 10px; */
 }
 .logoup {
     font-family: 'Raleway', sans-serif;
@@ -94,12 +103,15 @@
     letter-spacing: 0.02em;
 }
 .logoup3 {
+    background-color: darkgoldenrod;
     color: #757575;
     font-size: 500;
     font-size: 14px;
     line-height: 0.875;
     /* line-height: 16px; */
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
 }
 .logoup2:hover {
     color: #2196F3;
@@ -108,9 +120,17 @@
     color: #2196F3;
 }
 .nolink-mail {
+    /* display: flex; */
+
+    /* background-color: darkseagreen; */
     /* gap: 30px; */
     /* position: relative; */
 }
+/* .nolink-mail::after {
+    background-color: darkred;
+    width: 100%;
+    height: 100%;
+} */
 /* .nolink-mail::before {
     content: url();
     position: absolute;
@@ -217,6 +237,34 @@
 .footdown li {}
 
 
+.foot-div-three {
+    background-color: burlywood;
+}
+.foot-div-three h4 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.foot-div-three input {
+    width: 358px;
+    height: 50px;
+    border-radius: 4px;
+    /* border-color: aqua; */
+    background-color:#2F303A;
+}
+.foot-div-three-button {
+    width: 200px;
+    height: 50px;
+    background-color: rgba(33, 150, 243, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 0.53;
+    border-radius: 4px;
+    border: 0;
+    margin-left: 12px;
+    position: relative;
+}
+
 
 
                         /* MAIN  */
@@ -242,7 +290,7 @@
     align-items: center;
 }
 .div1box {
-    align-items: center;
+    /* align-items: center; */
     font-family: 'Roboto', sans-serif;
     /* max-width: 696px; */
 }
@@ -257,7 +305,7 @@
     margin: 0 auto 30px auto;
     max-inline-size: 696px;
 }
-.div1sec1 button {
+.sec1-button {
     font-size: 16px;
     font-weight: 700;
     color:#FFFFFF;
@@ -270,6 +318,167 @@
     font-family: inherit;
     line-height:1.875;
 }
+
+
+
+
+
+
+
+             /* MODAL  */
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0/ .2 );
+    transition: transform 0.25s;
+    display: flex;
+
+}
+.is-hidden {
+    /* display: none; */
+    transform: translateX(-100%);
+}
+.modal {
+    font-family: 'Roboto', sans-serif;
+    width: 528px;
+    height: 581px;
+    border-radius: 4px;
+    background-color: #ffffff;
+    margin: auto;
+    position: relative;
+
+}
+.modal-button-close {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    
+}
+
+.modal-head {
+    /* background-color: burlywood; */
+    margin-top: 40px;
+}
+.modal-head h2 {
+    font-size: 20px;
+    line-height: 0.85;
+    color: rgba(33, 33, 33, 1);
+}
+
+
+.modal-one-div ul {
+    list-style: none;
+    padding: 0;
+}
+.modal-one-div li {
+    margin-top: 28px;
+}
+.form-one {
+    /* background-color: darkgreen; */
+    display: flex;
+    justify-content: center;
+}
+.fieldset {
+    /* background-color: chocolate; */
+    border-color: var(--color-blue);
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    width: 448px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.fieldset-sec {
+    /* background-color: rgb(30, 57, 210); */
+    border-color: var(--color-blue);
+    border-radius: 4px;
+    margin: 0;
+    padding: 0;
+    width: 448px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-one {
+    margin-left: 15px;
+    width: 380px;
+    height: 16px;
+    /* background-color: cadetblue; */
+    /* border-radius: 4px; */
+    /* border-color: goldenrod; */
+    border: 0;
+    
+    color: rgba(117, 117, 117, 1);
+}
+
+.input-sec {
+    font-size: 12px;
+    width: 416px;
+    height: 96px;
+    margin-left: 15px;
+    border: 0;
+    /* width: 150px;
+    height: 16px; */
+    /* border-radius: 4px; */
+    /* border-color: goldenrod; */
+}
+.label-one {
+    position: absolute;
+    top: -16px;
+    font-size: 12px;
+}
+.label-one-svg {
+    margin-left: 15px;
+}
+
+.modal-two-div {
+    background-color: antiquewhite;
+}
+.modal-two-div ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.modal-three-div {
+    background-color: aquamarine;
+}
+.modal-three-div button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-weight: 700px;
+    font-size: 16px;
+    line-height: 0.53;
+    background-color: rgba(33, 150, 243, 1);
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
 
 
                         /* SEKCJA 2 */
@@ -367,7 +576,27 @@
     padding: 0;
     margin-bottom: 94px;
 }
-
+.loremimgdiv img {
+    position: relative;
+}
+.lorem-img-foot {
+    /* background-color: darksalmon; */
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 370px;
+    height: 70px;
+    position: absolute;
+    /* z-index: 1; */
+    top: 1455px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lorem-img-foot h3 {
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 0.85;
+}
 
 
 
@@ -576,11 +805,11 @@
     position: relative;
     width: 370px;
     height: 294px;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .portimg:hover .overlay {
-    transform: translatex(0);
-    background-color: #2196F3;
+    transform: translatey(0);
+    background-color: rgba(33, 150, 243, 0.9);
     /* background-color: blueviolet; */
 }                     
 .wraptext {
@@ -611,16 +840,19 @@
     position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  /* width: 370px;
+  height: 294px; */
+  padding: 49px 45px 49px 24px;
 
-  transform: translatex(-100%);
+  transform: translatey(100%);
   transition: transform 250ms ease;
 }
 .overlay > p {
-    font-size: 24px;
-    font-family: 'Times New Roman', Times, serif;
-    line-height: 30px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.55;
     color: #ffffff;
+    margin:auto;
+    
 
 }
