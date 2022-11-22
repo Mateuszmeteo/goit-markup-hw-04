@@ -74,11 +74,26 @@
 }
 .head2list {
     /* background-color: cornsilk; */
+    display: flex;
+    justify-content: center;
     /* display: flex;
     display: inline-flex;
     justify-content: center;
     align-items: center; 
     margin-right: 10px; */
+}
+.head2list li {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+}
+.head2list svg{ 
+    margin-right: 10px;
+    fill: #757575;
+}
+.head2list svg:hover{
+    cursor: pointer; 
+    fill: #2196F3;
 }
 .logoup {
     font-family: 'Raleway', sans-serif;
@@ -103,7 +118,7 @@
     letter-spacing: 0.02em;
 }
 .logoup3 {
-    background-color: darkgoldenrod;
+    /* background-color: darkgoldenrod; */
     color: #757575;
     font-size: 500;
     font-size: 14px;
@@ -119,13 +134,13 @@
 .logoup3:hover {
     color: #2196F3;
 }
-.nolink-mail {
+/* .nolink-mail { */
     /* display: flex; */
 
     /* background-color: darkseagreen; */
     /* gap: 30px; */
     /* position: relative; */
-}
+/* } */
 /* .nolink-mail::after {
     background-color: darkred;
     width: 100%;
@@ -221,8 +236,13 @@
     display: flex;
     gap: 10px;
 }
-.footdivtwo li {    
-    padding: 14px;
+.footdivtwo li {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;   
+    align-items: center; 
+    /* padding: 14px; */
     /* border: 1px solid red; */
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
@@ -669,8 +689,14 @@
 }
 .teamdivsvg li {
     /* border: 1px solid rgb(152, 146, 158); */
+    /* background-color: crimson; */
     border-radius: 50%;
-    padding: 14px;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 14px; */
     box-shadow: none;
     }
 .teamdivsvg li:hover {
